@@ -11,7 +11,7 @@ $ pip install bayard
 
 ## Usage
 
-```
+```python
 from bayard import BayardHTTPClient
 
 client = BayardHTTPClient(port=8088)
