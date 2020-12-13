@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bayard"
+version = "0.1.0"
+description = "bayard client for Python"
+authors = ["Hideo Hattori <hhatto.jp@gmail.com>"]
+readme = "README.md"
+keywords = ["bayard", "search", "full-text", "client"]
+repository = "https://github.com/hhatto/bayard-python"
+homepage = "https://github.com/hhatto/bayard-python"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.16.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
