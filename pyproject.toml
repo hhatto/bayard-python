@@ -1,12 +1,15 @@
 [tool.poetry]
-name = "bayard"
-version = "0.1.0"
+name = "bayard-python"
+version = "0.1.1"
 description = "bayard client for Python"
 authors = ["Hideo Hattori <hhatto.jp@gmail.com>"]
 readme = "README.md"
 keywords = ["bayard", "search", "full-text", "client"]
 repository = "https://github.com/hhatto/bayard-python"
 homepage = "https://github.com/hhatto/bayard-python"
+packages = [
+    {include = "bayard", from = "./src"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"

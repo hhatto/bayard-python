@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-$ pip install bayard-python
+$ pip install bayard
 ```
 
 ## Usage

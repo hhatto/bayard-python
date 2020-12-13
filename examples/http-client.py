@@ -1,3 +1,4 @@
+import bayard
 from bayard import BayardHTTPClient
 
 
@@ -9,4 +10,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print(bayard.__version__)
     main()
