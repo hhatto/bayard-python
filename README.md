@@ -24,6 +24,14 @@ client.commit()
 client.get_document("id1")
 ```
 
+## for developer
+
+```
+$ pip install poetry
+$ poetry build
+$ pytest
+```
+
 ## LICENSE
 
 MIT
